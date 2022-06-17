@@ -14,8 +14,9 @@ header {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     display: block;
-    background: url(https://picsum.photos/g/1921/1081?random) top center;
+    background: aqua;
     background-size: cover;
+    /* adjust this */
     transform: translateZ(-1px) scale(2.1);
     min-height: 100%;
     z-index: -2;
@@ -35,7 +36,7 @@ header {
   
   .section1 {
     background: #fafafa;
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 10px #333;
     z-index: 1;
   }
   
@@ -44,9 +45,10 @@ header {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     display: block;
-    background: url(https://picsum.photos/g/1920/1080?random) top center;
+    background: #333;
     background-size: cover;
-    transform: translateZ(-.5px) scale(1.6);
+    /* adjust this */
+    transform: translateZ(-2px) scale(2.6);
     z-index: -1;
   }
   
@@ -96,6 +98,7 @@ header {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
+    /* adjust this */
     perspective: 1px;
     transform-style: preserve-3d;
     font-size: 62.5%;
